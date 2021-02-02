@@ -40,7 +40,20 @@ def mod_power(x: int, y:int, MOD: int):
     modular arithmetic is used
     '''
 
-    result = ((x % MOD) ** (y % MOD)) % MOD
+    result  = 1
+    x       = x % MOD
+
+    if (x == 0):
+        return 0
+
+    while (y > 0):
+
+        if (y & 1 == 1):
+            result = ((result % MOD) * (x % MOD)) % MOD
+        
+        y = y >> 1
+        x = ((x % MOD) * (x % MOD)) % MOD
+
     return result
 
 '''
