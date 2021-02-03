@@ -7,14 +7,14 @@ all functions
 PyAlgo - Maths
 '''
 
-from .math.catalan_numbers import catalan
-from .math.factorial import factorial
-from .math.fibonnaci_numbers import fibonacci
-from .math.gcd import gcd, lcm
-from .math.power import mod_power, big_power
-from .math.prime import prime
-from .math.sieve import sieve
-from .math.totient_function import totient
+from .maths.catalan_numbers import catalan
+from .maths.factorial import factorial
+from .maths.fibonnaci_numbers import fibonacci
+from .maths.gcd import gcd, lcm
+from .maths.power import mod_power, big_power
+from .maths.prime import prime
+from .maths.sieve import sieve
+from .maths.totient_function import totient
 
 '''
 PyAlgo - Searching
