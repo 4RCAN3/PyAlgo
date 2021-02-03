@@ -53,7 +53,7 @@ while (True):
 ```
 
 - Naming of variables should be as follows:
-  - `constant variables`: Capitalised ```(MOD = 10e9 + 7)```
+  - `constant variables`: Capitalised (MOD = 10e9 + 7)
   - `functions`: separated by underscore (func_name)
   - `classes`: First letter capitalised (MyClass)
 
