@@ -19,7 +19,7 @@ def binary_search(arr: list, start: None, end: None, key):
 
     while (start <= end):
 
-        mid = start + ((end - start) // 2)
+        mid = int(start + ((end - start) / 2))
 
         if (arr[mid] < key):
             start = mid + 1

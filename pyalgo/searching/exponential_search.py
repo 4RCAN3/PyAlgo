@@ -33,7 +33,7 @@ def exponential_search(arr: list, start: None, end: None, key):
         else:
             break
 
-    return binary_search(arr, num // 2, num, key)
+    return binary_search(arr, int(num / 2), num, key)
 
 '''
 PyAlgo
