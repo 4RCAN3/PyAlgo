@@ -25,7 +25,7 @@ def catalan(n: int):
     '''
 
     result = binomial_coeff(2 * n, n)
-    answer = result / (n + 1)
+    answer = int(result / (n + 1))
 
     return answer
 
