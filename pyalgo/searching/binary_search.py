@@ -4,7 +4,7 @@ of binary search
 algorithm
 '''
 
-def binary_search(arr: list, start: None, end: None, num):
+def binary_search(arr: list, start: None, end: None, key):
 
     '''
     Binary search implementation
@@ -21,10 +21,10 @@ def binary_search(arr: list, start: None, end: None, num):
 
         mid = start + ((end - start) // 2)
 
-        if (arr[mid] < num):
+        if (arr[mid] < key):
             start = mid + 1
 
-        elif arr[mid] > num:
+        elif arr[mid] > key:
             end = mid - 1
 
         else:
