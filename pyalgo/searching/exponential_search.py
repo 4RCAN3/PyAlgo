@@ -9,8 +9,8 @@ from binary_search import *
 def exponential_search(arr: list, start: None, end: None, key):
 
     '''
-    Exponential search method
-    using iterative moethod
+    Exponential search using
+    iterative moethod
     '''
 
     if start == None:
