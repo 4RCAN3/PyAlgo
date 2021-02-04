@@ -1,6 +1,6 @@
 '''
 module for testing
-maths.catalan_numbers.py from
+maths.fibonacci_numbers.py from
 pyalgo math module
 '''
 
@@ -9,14 +9,14 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 import unittest
-from maths.catalan_numbers import catalan
+from maths.fibonnaci_numbers import fibonacci
 
-class TestCatalan(unittest.TestCase):
+class TestFibonacci(unittest.TestCase):
 
-    def test_catalan_number(self):
-        result = catalan(6)
+    def test_fibonacci(self):
+        result = fibonacci(6)
 
-        self.assertEqual(result, 132)
+        self.assertEqual(result, 8)
 
 if __name__ == "__main__":
     unittest.main()

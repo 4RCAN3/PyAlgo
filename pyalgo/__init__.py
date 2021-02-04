@@ -15,6 +15,7 @@ from .maths.power import mod_power, big_power
 from .maths.prime import prime
 from .maths.sieve import sieve
 from .maths.totient_function import totient
+from .maths.gray_code import gray_code
 
 '''
 PyAlgo - Searching
