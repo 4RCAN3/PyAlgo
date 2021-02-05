@@ -15,12 +15,12 @@ def prime(n: int):
     if (n == 2):
         return True
 
-    result = False
+    result = True
 
     for i in range (2, int(n ** 0.5)):
 
         if (n % i == 0):
-            result = True
+            result = False
             break
 
     return result
