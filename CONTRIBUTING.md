@@ -64,3 +64,5 @@ When making a pull request, the following should be in the description:
 - What new changes have been made/working of the new module
 - Check whether it follows the code formatting
 - Create a test for the code using the unittest module in the `test` directory
+
+> If the PR passes the the travis-ci build, it will be merged to the main branch.
