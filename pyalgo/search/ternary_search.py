@@ -17,6 +17,8 @@ def ternary_search(arr: list, start: None, end: None, key):
     if end == None:
         end = len(arr)
 
+    end = end - 1
+
     if (start <= end):
 
         midFirst    = int(start + (end - start) / 3)

@@ -5,8 +5,8 @@ for pattern searching
 '''
 
 CHAR = 256
-
-def rabin_karp(pattern: str, text: str):
+  
+def rabin_karp(pattern, text):
 
     '''
     searches all occurences
@@ -14,43 +14,43 @@ def rabin_karp(pattern: str, text: str):
     list of indexes
     '''
 
-    prime = 101
+    PRIME 		= 101
+    len_pat 	= len(pattern) 
+    len_txt 	= len(text) 
+    i 			= 0
+    j 			= 0
+    hash_pat	= 0
+    hash_txt 	= 0 
+    h 			= 1
+    result 		= []
 
-    len_pat     = len(pattern)
-    len_txt     = len(text)
-    hash_pat    = 0
-    hash_txt    = 0
-    num         = 1
-    result      = []
+    for i in range(len_pat - 1): 
+        h = (h * CHAR) % PRIME 
 
-    for i in range (len_pat - 1):
-        num = (num * CHAR) % prime
+    for i in range(len_pat): 
+        hash_pat = (CHAR * hash_pat + ord(pattern[i])) % PRIME 
+        hash_txt = (CHAR * hash_txt + ord(text[i])) % PRIME 
 
-    for i in range (len_pat):
-        hash_pat = (CHAR * hash_pat + ord(pattern[i])) % prime
-        hash_txt = (CHAR * hash_txt + ord(text[i])) % prime
+    for i in range(len_txt - len_pat + 1): 
 
-    for i in range (len_txt - len_pat + 1):
+        if (hash_pat == hash_txt): 
 
-        if (hash_pat == hash_txt):
+            for j in range(len_pat):
 
-            for j in range (len_pat):
-
-                if (text[i + j] != pattern[j]):
+                if (text[i + j] != pattern[j]): 
                     break
 
-                else:
-                    j += 1
+                else: 
+                	j += 1
 
-            if (j == len_pat):
-                result.append(i)
+            if (j == len_pat): 
+                result.append(i) 
 
-        if (i < len_txt - len_pat):
+        if (i < len_txt - len_pat): 
+            hash_txt = (CHAR * (hash_txt - ord(text[i]) * h) + ord(text[i + len_pat])) % PRIME 
 
-            hash_txt = (CHAR * (hash_txt - ord(text[i]) * num)) + ord(text[i + len_pat]) % prime
-
-            if (hash_txt < 0):
-                hash_txt += prime
+            if (hash_txt < 0): 
+                hash_txt = hash_txt + PRIME
 
     return result
 

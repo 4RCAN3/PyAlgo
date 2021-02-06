@@ -17,10 +17,10 @@ def interpolation_search(arr: list, start: None, end: None, key):
     if end == None:
         end = len(arr)
 
-    while (start <= end and key >= arr[start] and key <= arr[end]):
+    while (start <= end and key >= arr[start] and key <= arr[end - 1]):
 
         dist        = key - arr[start]
-        valRange    = arr[end] - arr[start]
+        valRange    = arr[end - 1] - arr[start]
         frac        = dist / valRange
         indexRange  = end - start
         num         = start + int(frac * indexRange)

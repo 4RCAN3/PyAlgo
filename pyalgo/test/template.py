@@ -9,6 +9,7 @@ function    = input("Enter name of function: ")
 filename    = "test_" + function + ".py"
 file        = open(filename, 'w')
 module_name = input("Enter module name: ")
+arguments   = input("Enter the arguments: ")
 answer      = input("Enter the answer: ")
 name        = input("Name of tester: ")
 
@@ -37,7 +38,7 @@ from {module_name} import {function}
 class Test{function_class}(unittest.TestCase):
 
     def test_{function}(self):
-        result = {function}(6)
+        result = {function}({arguments})
 
         self.assertEqual(result, {answer})
 

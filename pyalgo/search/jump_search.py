@@ -13,7 +13,7 @@ def jump_search(arr: list, key):
 
     size    = len(arr)
     start   = 0
-    end     = int(size ** 0.5)
+    end     = int(size ** 0.5) - 1
 
     while (arr[end] <= key and end < size):
 
