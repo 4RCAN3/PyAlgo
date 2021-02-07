@@ -4,18 +4,12 @@ of interpolation search
 algorithm
 '''
 
-def interpolation_search(arr: list, start = None, end = None, key):
+def interpolation_search(arr: list, start: int, end: int, key):
 
     '''
     Interpolation search using
     iterative method
     '''
-
-    if start == None:
-        start = 0
-
-    if end == None:
-        end = len(arr)
 
     while (start <= end and key >= arr[start] and key <= arr[end - 1]):
 

@@ -4,18 +4,12 @@ of binary search
 algorithm
 '''
 
-def binary_search(arr: list, start = None, end = None, key):
+def binary_search(arr: list, start: int, end: int, key):
 
     '''
     Binary search implementation
     using iterative method
     '''
-
-    if start == None:
-        start = 0
-
-    if end == None:
-        end = len(arr)
 
     while (start <= end):
 

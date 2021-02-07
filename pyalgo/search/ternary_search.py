@@ -4,20 +4,12 @@ of ternary search
 algorithm
 '''
 
-def ternary_search(arr: list, start = None, end = None, key):
+def ternary_search(arr: list, start: int, end: int, key):
 
     '''
     Ternary search
     using recursive method
     '''
-
-    if start == None:
-        start = 0
-
-    if end == None:
-        end = len(arr)
-
-    end = end - 1
 
     if (start <= end):
 

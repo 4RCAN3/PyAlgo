@@ -6,18 +6,12 @@ algorithm
 
 from binary_search import *
 
-def exponential_search(arr: list, start = None, end = None, key):
+def exponential_search(arr: list, start: int, end: int, key):
 
     '''
     Exponential search using
     iterative moethod
     '''
-
-    if start == None:
-        start = 0
-
-    if end == None:
-        end = len(arr)
 
     if (end - start <= 0):
 
