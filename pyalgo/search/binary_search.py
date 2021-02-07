@@ -4,7 +4,7 @@ of binary search
 algorithm
 '''
 
-def binary_search(arr: list, start: None, end: None, key):
+def binary_search(arr: list, start = None, end = None, key):
 
     '''
     Binary search implementation

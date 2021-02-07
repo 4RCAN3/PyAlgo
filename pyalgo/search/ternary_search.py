@@ -4,7 +4,7 @@ of ternary search
 algorithm
 '''
 
-def ternary_search(arr: list, start: None, end: None, key):
+def ternary_search(arr: list, start = None, end = None, key):
 
     '''
     Ternary search

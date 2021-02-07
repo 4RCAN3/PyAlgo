@@ -1,6 +1,6 @@
 '''
 module for calculating
-nth fibonacci numatrix2ber
+nth fibonacci number
 '''
 
 def fibonacci(n: int):

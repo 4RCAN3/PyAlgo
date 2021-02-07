@@ -6,7 +6,7 @@ algorithm
 
 from binary_search import *
 
-def exponential_search(arr: list, start: None, end: None, key):
+def exponential_search(arr: list, start = None, end = None, key):
 
     '''
     Exponential search using

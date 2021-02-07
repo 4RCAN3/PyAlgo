@@ -4,7 +4,7 @@ of interpolation search
 algorithm
 '''
 
-def interpolation_search(arr: list, start: None, end: None, key):
+def interpolation_search(arr: list, start = None, end = None, key):
 
     '''
     Interpolation search using
