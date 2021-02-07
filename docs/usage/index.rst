@@ -18,7 +18,7 @@ Modules
 The given modules are available in ``PyAlgo``:
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
 
-   pyalgo.maths
-   pyalgo.search
+   pyalgo.maths.rst
+   pyalgo.search.rst
