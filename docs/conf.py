@@ -12,8 +12,7 @@
 #
 import os, sys
 
-for x in os.walk('../../pyalgo'):
-  sys.path.insert(0, x[0])
+sys.path.insert(0, os.path.abspath('..'))
 
 import sphinx_rtd_theme
 from recommonmark.parser import CommonMarkParser
