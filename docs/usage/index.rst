@@ -2,8 +2,8 @@ Usage
 =====
 The usage of modules available in ``PyAlgo``
 
-Importing
----------
+Importing PyAlgo
+----------------
 ``PyAlgo`` module can be imported in the following ways:
 
 .. code-block:: python
@@ -22,3 +22,4 @@ The given modules are available in ``PyAlgo``:
 
    pyalgo.maths.rst
    pyalgo.search.rst
+   pyalgo.cp.rst

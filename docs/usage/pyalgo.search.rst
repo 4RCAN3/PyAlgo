@@ -58,6 +58,7 @@ pyalgo.search.rabin\_karp
    :show-inheritance:
 
 pyalgo.search.z\_algorithm
+--------------------------
 
 .. automodule:: pyalgo.search.z_algorithm
    :members:

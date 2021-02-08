@@ -33,6 +33,14 @@ from .search.rabin_karp import rabin_karp
 from .search.z_algorithm import z_algorithm
 
 '''
+PyAlgo - CP
+'''
+
+from .cp import *
+from .cp.FastIO import *
+from .cp.template import *
+
+'''
 PyAlgo
 Devansh Singh, 2021
 '''
