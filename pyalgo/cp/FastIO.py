@@ -63,6 +63,9 @@ class IOWrapper(IOBase):
     '''
     optimising stdin and
     stdout for Fast I/O
+
+    Usage:
+    sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
     '''
 
     def __init__(self, file):
@@ -73,8 +76,6 @@ class IOWrapper(IOBase):
         self.write = lambda s: self.buffer.write(s.encode("ascii"))
         self.read = lambda: self.buffer.read().decode("ascii")
         self.readline = lambda: self.buffer.readline().decode("ascii")
-
-sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
 
 '''
 PyAlgo
