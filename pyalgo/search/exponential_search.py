@@ -4,7 +4,7 @@ of exponential search
 algorithm
 '''
 
-from binary_search import *
+from pyalgo.search.binary_search import *
 
 def exponential_search(arr: list, start: int, end: int, key):
 

@@ -8,7 +8,7 @@ with open(path.join(directory, 'README.md'), encoding = 'utf-8') as f:
 
 setup( 
         name ='pyalgo-lib',
-        version = '0.1.1',
+        version = '0.1.2',
         author ='Devansh Singh',
         author_email ='devanshamity@gmail.com',
         url ='https://github.com/Devansh3712/PyAlgo',
@@ -16,7 +16,7 @@ setup(
         long_description = long_description,
         long_description_content_type ="text/markdown",
         license = 'MIT',
-        packages = ["pyalgo"],
+        packages = find_packages(exclude = ("test",)),
         include_package_data = True,
         classifiers =[
             "Programming Language :: Python :: 3",
