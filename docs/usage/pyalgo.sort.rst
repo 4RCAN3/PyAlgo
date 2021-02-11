@@ -32,3 +32,11 @@ pyalgo.sort.merge\_sort
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.sort.heap\_sort
+----------------------
+
+.. automodule:: pyalgo.sort.heap_sort
+   :members:
+   :undoc-members:
+   :show-inheritance:
