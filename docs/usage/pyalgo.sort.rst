@@ -24,3 +24,11 @@ pyalgo.sort.selection\_sort
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.sort.merge\_sort
+-----------------------
+
+.. automodule:: pyalgo.sort.merge_sort
+   :members:
+   :undoc-members:
+   :show-inheritance:
