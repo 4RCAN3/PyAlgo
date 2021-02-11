@@ -40,3 +40,11 @@ pyalgo.sort.heap\_sort
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.sort.quick\_sort
+-----------------------
+
+.. automodule:: pyalgo.sort.quick_sort
+   :members:
+   :undoc-members:
+   :show-inheritance:
