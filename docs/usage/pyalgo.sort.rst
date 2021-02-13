@@ -56,3 +56,11 @@ pyalgo.sort.counting\_sort
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.sort.radix\_sort
+-----------------------
+
+.. automodule:: pyalgo.sort.radix_sort
+   :members:
+   :undoc-members:
+   :show-inheritance:
