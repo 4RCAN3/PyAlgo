@@ -55,6 +55,7 @@ from pyalgo.sort.quick_sort import quick_sort, quick_sort_recursive
 from pyalgo.sort.selection_sort import selection_sort
 from pyalgo.sort.counting_sort import counting_sort
 from pyalgo.sort.radix_sort import radix_sort
+from pyalgo.sort.bucket_sort import bucket_sort
 
 '''
 PyAlgo

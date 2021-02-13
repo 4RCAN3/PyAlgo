@@ -64,3 +64,11 @@ pyalgo.sort.radix\_sort
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.sort.bucket\_sort
+------------------------
+
+.. automodule:: pyalgo.sort.radix_sort
+   :members:
+   :undoc-members:
+   :show-inheritance:
