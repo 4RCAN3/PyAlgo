@@ -76,7 +76,15 @@ pyalgo.sort.bucket\_sort
 pyalgo.sort.shell\_sort
 -----------------------
 
-.. automodule:: pyalgo.sort.radix_sort
+.. automodule:: pyalgo.sort.shell_sort
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyalgo.sort.pigeonhole\_sort
+----------------------------
+
+.. automodule:: pyalgo.sort.pigeonhole_sort
    :members:
    :undoc-members:
    :show-inheritance:

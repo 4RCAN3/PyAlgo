@@ -57,6 +57,7 @@ from pyalgo.sort.counting_sort import counting_sort
 from pyalgo.sort.radix_sort import radix_sort
 from pyalgo.sort.bucket_sort import bucket_sort
 from pyalgo.sort.shell_sort import shell_sort
+from pyalgo.sort.pigeonhole_sort import pigeonhole_sort
 
 '''
 PyAlgo
