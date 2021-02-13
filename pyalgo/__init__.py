@@ -53,6 +53,7 @@ from pyalgo.sort.insertion_sort import insertion_sort
 from pyalgo.sort.merge_sort import merge_sort
 from pyalgo.sort.quick_sort import quick_sort, quick_sort_recursive
 from pyalgo.sort.selection_sort import selection_sort
+from pyalgo.search.counting_sort import counting_sort
 
 '''
 PyAlgo

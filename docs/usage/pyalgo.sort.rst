@@ -48,3 +48,11 @@ pyalgo.sort.quick\_sort
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.sort.counting\_sort
+--------------------------
+
+.. automodule:: pyalgo.sort.counting_sort
+   :members:
+   :undoc-members:
+   :show-inheritance:
