@@ -19,6 +19,7 @@ from pyalgo.maths.prime import prime
 from pyalgo.maths.sieve import sieve
 from pyalgo.maths.totient_function import totient
 from pyalgo.maths.gray_code import gray_code
+from pyalgo.maths.convex_hull import convex_hull
 
 '''
 PyAlgo - Searching

@@ -72,3 +72,11 @@ pyalgo.maths.totient\_function
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.maths.convex\_hull
+-------------------------
+
+.. automodule:: pyalgo.maths.convex_hull
+   :members:
+   :undoc-members:
+   :show-inheritance:
