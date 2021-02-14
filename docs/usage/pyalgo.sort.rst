@@ -88,3 +88,11 @@ pyalgo.sort.pigeonhole\_sort
    :members:
    :undoc-members:
    :show-inheritance:
+
+pyalgo.sort.cycle\_sort
+-----------------------
+
+.. automodule:: pyalgo.sort.cycle_sort
+   :members:
+   :undoc-members:
+   :show-inheritance:
