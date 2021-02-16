@@ -7,3 +7,5 @@ python:
 cache: pip
 script:
   - python3 -m unittest discover
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
