@@ -62,6 +62,16 @@ from pyalgo.sort.pigeonhole_sort import pigeonhole_sort
 from pyalgo.sort.cycle_sort import cycle_sort
 
 '''
+PyAlgo - Graph
+'''
+
+from pyalgo.graph import *
+from pyalgo.graph.mst import *
+from pyalgo.graph.bfs import bfs, bfs_paths
+from pyalgo.graph.dfs import dfs, dfs_paths
+from pyalgo.graph.mst.prim_mst import *
+
+'''
 PyAlgo
 Devansh Singh, 2021
 '''
